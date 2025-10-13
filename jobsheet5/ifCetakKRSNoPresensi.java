@@ -6,8 +6,9 @@ public class ifCetakKRSNoPresensi {
         System.out.println("===Print KRS SIAKAD===");
         System.out.print("Have the tuition fees been paid in full (TRUE/FALSE): ");
         boolean uktlunas = sc.nextBoolean();
-
-            System.out.println("UKT payment has been verified");
+            if (uktlunas) {
+            System.out.print("UKT payment has been verified");
             System.out.println("KRS can now be printed and you can ask the academic advisor to sign it");
+            }
         }
      }
