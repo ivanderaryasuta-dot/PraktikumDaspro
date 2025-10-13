@@ -9,6 +9,8 @@ public class ifCetakKRSNoPresensi {
             if (uktlunas) {
             System.out.print("UKT payment has been verified");
             System.out.println("KRS can now be printed and you can ask the academic advisor to sign it");
+            } else {
+            System.out.print("Registration rejected. Please pay UKT first.");
             }
         }
      }
